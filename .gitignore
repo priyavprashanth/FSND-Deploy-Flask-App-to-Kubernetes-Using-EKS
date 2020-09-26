@@ -27,3 +27,6 @@ htmlcov/
 # Direnv
 .envrc
 .direnv
+
+#Priya : Added the .env_file as per the instructions in the project
+.env_file

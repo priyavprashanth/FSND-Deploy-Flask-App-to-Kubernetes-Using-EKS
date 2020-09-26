@@ -110,5 +110,6 @@ def _get_jwt(user_data):
                'email': user_data['email']}
     return jwt.encode(payload, JWT_SECRET, algorithm='HS256')
 
+# Priya - Note - Host OS is windows, using an ubuntu16.04 guest VM. Therefore specified host=0.0.0.0
 if __name__ == '__main__':
-    APP.run(host='127.0.0.1', port=8080, debug=True)
+    APP.run(host='0.0.0.0', port=8080, debug=True)
