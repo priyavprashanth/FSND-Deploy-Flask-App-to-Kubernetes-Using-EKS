@@ -40,7 +40,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default:
+    Default: priyavprashanth
     Description: priyavprashanth
     MinLength: 3
     MaxLength: 100
